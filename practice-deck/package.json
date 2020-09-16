@@ -1,0 +1,16 @@
+{
+  "name": "practice1-deck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon --watch src -e ts --exec ts-node src/index.ts",
+    "build" : " rd /s /q dist & tsc"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.10.0"
+  }
+}
