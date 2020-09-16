@@ -1,0 +1,11 @@
+.game{
+    width: 100%;
+    margin: 100px 0;
+    text-align: center;
+}
+.gameTitle{
+    text-align: center;
+}
+.restartGame{
+    margin: 10px 0;
+}

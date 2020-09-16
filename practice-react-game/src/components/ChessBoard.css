@@ -1,0 +1,7 @@
+.chessBoard{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
