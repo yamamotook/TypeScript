@@ -10,11 +10,7 @@
     //输出文件的路劲配置
     "outDir": "./dist",
     // 更严格的空类型检查, undefiend 和 null 将只能赋值给本类型
-    "strictNullChecks":  true,
-    // 模块化解析策略, 默认位Classic , 可配置为node解析策略
-    "moduleResolution" : "Node",
-    //允许模块化标准混用, ts 会对使用commonjs为编译结果的文件进行处理
-    "esModuleInterop" : true
+    "strictNullChecks":  true
   },
   // 编辑的路劲， 只编译./src文件下的ts文件
   "include" : ["./src"],
